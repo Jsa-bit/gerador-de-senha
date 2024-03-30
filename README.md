@@ -1,2 +1,3 @@
 # gerador de senha
- uma página web geradora de senha aleatória
+ Uma página web geradora de senha aleatória,com até 25 caracteres,usando HTML,CSS e Javascript.
+ 
