@@ -22,8 +22,11 @@ p{
     font-size: 2.5em;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 70%;
+    max-height: 40%;
 }
 .container-input{
+    max-height: 40%;
     max-width: 480px;
     margin: 14px 0px;
 }
@@ -91,6 +94,7 @@ p{
     border: 1px solid rgb(98, 156, 12);
     transition: transform 0.3s;
 }
+
 .password:hover{
     transform: scale(1.02);
 }

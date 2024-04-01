@@ -5,22 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta description="Gerador de senhas (Keywords) aleatórias com até 25 caracteres">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <title>Gerador de senha</title>
 </head>
 <body>
     <p class="logo">GERADOR DE SENHAS</p>
     <main class="container-input">
-        <span>Tamanho <span id="valor"></span>caracteres</span>
+        <span>Tamanho de <span id="valor"></span> caracteres</span>
         <input id="slider" class="slider" type="range" min="5" max="25" value="15">
-        <button id="buttom" class="buttom-cta">Gerar senha</button>
-        <div id="container-password" class="container-password hide">
+        <button id="buttom" class="buttom-cta" onclick="geradorDeSenha()">Gerar senha</button>
+        <div id="container-password" onclick="copyPassword()" class="container-password hide">
             <span class="title">Sua senha gerada foi:</span>
-            <span id="password" class="password">12345678</span>
+            <span id="password" class="password"></span>
             <span class="tooltip">Clique na senha para copiar.☝️</span>
         </div>
-
-
     </main>
 </body>
+<script src="script.js"></script>
 </html>
